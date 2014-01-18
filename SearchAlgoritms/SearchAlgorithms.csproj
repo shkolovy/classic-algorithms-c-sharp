@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinarySearch.cs" />
+    <Compile Include="BoyerMooreSearchClass.cs" />
     <Compile Include="DirectSearch.cs" />
     <Compile Include="KPMSearch.cs" />
     <Compile Include="LinearSearch.cs" />

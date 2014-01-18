@@ -14,8 +14,11 @@ namespace SearchAlgorithms
 
             //var b = array1.BinarySearch(15);
 
-            var a = "ukraine, Kiev ukrane ooo".DirectSearch("ukrane");
-            var b = "ukraine, Kiev ukrane ooo".KPMSearch("ukrane");
+            const string str = "hoola-hoola girls like hooligans";
+
+            var a = str.DirectSearch("hooligan");
+            var b = str.KPMSearch("hooligan");
+            var c = str.BoyerMooreSearch("hooligan");
 
             Console.ReadKey();
         }
